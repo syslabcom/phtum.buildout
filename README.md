@@ -14,7 +14,7 @@ Installation Long Version
 - create a virtualenv
   virtualenv --no-site-packages --clear --python python2.7 .
 - probably upgrade setuptools
-  bin/pip install setuptools==1.3.1
+  bin/pip install --upgrade setuptools==1.3.1
 - run bootstrap
   bin/python bootstrap.py
 - run buildout
