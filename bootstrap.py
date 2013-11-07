@@ -68,7 +68,6 @@ try:
     import pkg_resources
     import setuptools
 except ImportError:
-    import pdb;pdb.set_trace()
     ez = {}
 
     try:
